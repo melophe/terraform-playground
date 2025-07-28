@@ -8,3 +8,13 @@ resource "aws_instance" "name" {
       Name = "${var.project}"
     }
 }
+
+variable "message" {
+  type = string
+  default = "Hello, World!"
+}
+
+variable "text" {
+  type = string
+  default = "Hello, World!"
+}
